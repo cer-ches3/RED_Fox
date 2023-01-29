@@ -45,15 +45,15 @@ body {
     transition: all 1.5s;
     transform: translateY(0%);
   }
-#card1 {background-image: url(/image/specialist1.jpg);}
-#card2 {background-image: url(/image/specialist2.jpg);}
-#card3 {background-image: url(/image/specialist3.jpg);}
-#card4 {background-image: url(/image/specialist4.jpg);}
-#card5 {background-image: url(/image/specialist5.jpg);}
-#card6 {background-image: url(/image/specialist8.jpg);}
-#card7 {background-image: url(/image/specialist7.jpg);}
-#card8 {background-image: url(/image/specialist6.jpg);}
-#card9 {background-image: url(/image/specialist9.jpg);}
+#card1 {background-image: url(image/specialist1.jpg);}
+#card2 {background-image: url(image/specialist2.jpg);}
+#card3 {background-image: url(image/specialist3.jpg);}
+#card4 {background-image: url(image/specialist4.jpg);}
+#card5 {background-image: url(image/specialist5.jpg);}
+#card6 {background-image: url(image/specialist8.jpg);}
+#card7 {background-image: url(image/specialist7.jpg);}
+#card8 {background-image: url(image/specialist6.jpg);}
+#card9 {background-image: url(image/specialist9.jpg);}
 
 
 .text {
