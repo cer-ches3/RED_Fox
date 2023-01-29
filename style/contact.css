@@ -1,0 +1,110 @@
+body {
+    background: rgb(243, 242, 242);
+}
+.contact-box {
+    background: linear-gradient(to right, #5a49f8, white);
+    margin: 0 10%;
+    width: 50%;
+}
+
+.contact-box h1 {
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    padding: 150px 100px 0 0;
+    text-align: center;
+}
+
+.for-img img {
+    width: 400px;
+    position: relative;
+    top: -200px;
+    left: 45%;
+}
+
+.for-img h3 {
+    text-align: center;
+    margin: -200px 25% 0 25%;
+}
+.contact {
+    position: relative;
+    top: -200px;
+    display: flex;
+    margin: 0 10%;
+    justify-content: left;
+}
+.block {
+    max-width: 200px;
+    padding: 0;
+    margin-right: 20px;
+}
+.contact h4 {
+    color: #5a49f8;
+}
+.feedback {
+    position: relative;
+    top: -150px;
+}
+.feedback h2 {
+    text-align: center;
+    color: #5a49f8;
+}
+.for-input {
+    margin: 0 10%;
+    text-align: center;
+}
+.for-input input {
+    margin-bottom: 20px;
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.for-input input:hover {
+    border: 1px solid black;
+}
+.for-input textarea {
+    margin-bottom: 20px;
+    width: 81%;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.for-input textarea:hover {
+    border: 1px solid black;
+}
+.checkbox {
+    text-align: left;
+    margin: 0 10%;
+    margin-bottom: 20px;
+
+}
+.checkbox input {
+    margin: 0;
+    width: 15px;
+}
+.checkbox input:hover {
+    cursor: pointer;
+}
+.btn-submit {
+    margin-top: 20px;
+}
+.btn-submit button {
+    max-width: auto;
+    max-height: auto;
+    background: #5a49f8;
+    color: white;
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+
+.btn-submit button:hover {
+    background: transparent;
+    border: 2px solid #5a49f8;
+    color: #5a49f8;
+    transition: 1s;
+    cursor: pointer;
+}
+.box-map {
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+

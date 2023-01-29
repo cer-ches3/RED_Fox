@@ -1,0 +1,99 @@
+body{
+    background: rgb(243, 242, 242);
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box_for_bad_sees{
+    border-bottom: 3px solid rgb(238, 238, 238);
+}
+.box_for_bad_sees img{
+    width: 150px;
+}
+.box_for_bad_sees img:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.box-contact {
+    display: flex;
+    background: #5a49f8;
+    color: white;
+    padding-left: 200px;
+}
+.phone {
+    margin: 10px 10px;
+    border-right:1px solid blanchedalmond ;
+    padding-right: 5px;
+
+}
+.box-email {
+    display: flex;
+}
+.box-email img {
+max-width: 40px;
+max-height: 40px;
+margin: 0px 0;
+}
+.box-email h4 {
+    margin: 10px 10px;
+}
+
+.nav-box {
+    display: flex;
+    margin: 0 10%;
+}
+.logo {
+    padding: 10px 0 0 0;
+}
+.logo img {
+    width: 100px;
+}
+.navbar {
+    padding: 30px 15%;
+    max-width: auto;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.navbar a:hover {
+    border-bottom: 2px solid #5a49f8;
+    color: #5a49f8;
+}
+.navbar a:active{
+    color: #5a49f8;
+}
+.button-UC {
+    text-decoration: none;
+    max-width: auto;
+    max-height: auto;
+    background: #5a49f8;
+    color: white;
+    padding: 8px 5px;
+    margin: 20px 0 20px 10%;
+}
+.button-UC:hover {
+    background: transparent;
+    border: 2px solid #5a49f8;
+    color: #5a49f8;
+    transition: 2s;
+    cursor: pointer;
+}
+.arrow-slide-up img {
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.arrow-slide-up img:hover {
+    transform: scale(1.05);
+    background-color: #5a49f8;
+    cursor: pointer;
+}

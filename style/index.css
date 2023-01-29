@@ -1,0 +1,116 @@
+body {
+    background: rgb(243, 242, 242);
+}
+.video-box {
+    height: auto;
+}
+.video {
+    width: 100%;
+    height: 800px;
+}
+.video-box h1 {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    color: white;
+    text-align: center;
+    max-width: auto;
+    font: italic small-caps bold 40px cursive;
+    display: none;
+}
+.video-box span {
+    color: red;
+}
+.video-box h4 {
+    color: white;
+    font: italic 1.2em "Fira Sans", serif;
+    position: absolute;
+    top: 55%;
+    text-align: left;
+    margin-left: 150px;
+    max-width: 400px;
+    display: none;
+}
+.video-box button {
+    display: none;
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    max-width: 200px;
+    max-height: 80px;
+    background: #5a49f8;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+.video-box button:hover {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    transition: 2s;
+}
+.sliderShowDate {
+    width: 40px;
+    position: absolute;
+    top: 93%;
+    left: 48%;
+    display: none;
+}
+.sliderShowDate:hover {
+    transform: scale(1.1);
+}
+
+.info-box {
+    margin: 0 20%;
+    display: none;
+}
+.o-company {
+    text-align: center;
+}
+.info-box h1 {
+    color: #5a49f8;
+    text-align: center;
+}
+.princip-box {
+    display: flex;
+}
+.princip-left-box {
+    width: 400px;
+    padding-top: 40px;
+}
+.princip-left-box h4 {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    color: #5a49f8;
+    margin-top: 0;
+}
+.princip-left-box img {
+    width: 400px;
+}
+.princip-right-box {
+    padding: 10px 15px;
+}
+
+.servece-boxes {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: center;
+}
+.servece-box {
+    text-align: center;
+    width: 180px;
+    margin: 0 10px 0 10px;
+    background: white;
+    border-radius: 25px;
+}
+.servece-box img {
+    width: 125px;
+}
+.servece-box:hover {
+    background: #f1f1f3;
+    border-radius: 10%;
+    position: relative;
+    top: -10px;
+    transition: 1s;
+}

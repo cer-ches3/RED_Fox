@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="image/REDFox-logo.png">
+        <title>Контакты</title>
+        <link rel="stylesheet" href="style/header&footer.css">
+        <link rel="stylesheet" href="style/contact.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class="box_for_bad_sees">
+                <img id="specialButton" src="/image/bad_sees.png" alt="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" title="ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ" />
+            </div>
+        
+            <div class="box-contact">
+                <h4 class="phone">+7 (999) 999-99-99</h4>
+                <div class="box-email">
+                    <img src="image/email.png" alt="e-mail">
+                    <h4>info@redfox69.ru</h4>
+                </div>
+            </div>
+    
+            <div class="nav-box">
+                <div class="logo">
+                    <a href="index.html" ><img src="image/REDFox-logo.png" alt="logo"></a>
+                </div>
+                <nav class="navbar">
+                    <a href="document.html">Документы</a>
+                    <a href="services.html">Услуги</a>
+                    <a href="specialists.html">Специалисты</a>
+                    <a href="contact.html">Контакты</a>
+                </nav>
+                <button onclick="window.location.href = 'education-centr.html';" class="button-UC">Учебный центр</button>
+            </div>
+            <div class="arrow-slide-up" id="arrow-slide-up">
+                <img src="image/arrow-slide-up.png" alt="">
+            </div>
+        </header>
+
+        <div class="contact-box">
+            <h1>Контакты</h1>
+        </div>
+        <div class="for-img">
+            <img src="image/contact-img.jpg" alt="services">
+            <div class="contact">
+                <div class="block">
+                    <h4>Режим работы</h4>
+                    <h5>Пн - Пт <br> 09:00 - 16:00</h5>
+                </div>
+                <div class="block">
+                    <h4>Место нахождения</h4>
+                    <h5>171984, Твеская обл., Бежецкий р-н, г. Бежецк, ул Чехова, д.8</h5>
+                </div>
+                <div class="block">
+                    <h4>Контактная информация</h4>
+                    <h5>+7(4822) 50-92-40 <br>
+                        info@redfox69.ru</h5>
+                </div>
+            </div>
+        </div>
+    
+        <div class="feedback">
+            <h2>Пожалуйста, заполните форму ниже, и мы с Вами свяжемся в ближайшее время!</h2>
+            <div class="for-input">
+                    <input type="text" id="fio" placeholder="ФИО" >
+                    <input type="tel" id="phone" placeholder="Телефон" >
+                    <input type="email" id="mail" placeholder="E-mail" >
+                    <input type="text" id="theme" placeholder="Тема" >
+                    <textarea id="message" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                <div class="checkbox">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Я даю согласие на обработку персональных данных</label>
+                </div>
+                <div class="btn-submit">
+                    <button type="submit" id="submit">Отправить</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="box-map">
+            <div class="map" style="position:relative;overflow:hidden;">
+                <iframe src="https://yandex.ru/map-widget/v1/-/CCUj4TQztD" width="1200" height="600" frameborder="1"
+                    allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+        </div>
+      
+        
+    
+        
+    
+        
+
+        <script src="scripts\script-contact.js"></script>
+        <!-- Скрипт версии для СЛАБОВИДЯЩИХ -->
+        <script src="https://lidrekon.ru/slep/js/jquery.js"></script>
+        <script src="https://lidrekon.ru/slep/js/uhpv-full.min.js"></script>
+
+    </body>
+</html>

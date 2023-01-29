@@ -1,0 +1,122 @@
+body {
+    background: rgb(243, 242, 242);
+}
+.background {
+    background: linear-gradient(#5a49f8, rgb(155, 155, 155));
+    margin: 0 10% 250px 10%;
+}
+.documents {
+    margin: 0 50px;
+    position: relative;
+    top: 100px;
+    background: white;
+}
+.documents h1 {
+    text-align: center;
+}
+.docs {
+    opacity: 0;
+}
+.docs.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+.docs-box-r{
+    display: flex;
+    margin: 0 100px 50px 100px;
+    justify-content: center;
+}
+.docs-box-r img{
+    width: 400px;
+}
+.docs-info-r{
+    background: white;
+    position: relative;
+    top: 50px;
+    left: 70px;
+    padding: 40px 40px;
+    max-width: 400px;
+}
+.docs-info-r h2 {
+    text-align: right;
+}
+.docs-info-r button {
+    background: #5a49f8;
+    border: 1px solid #5a49f8;
+    padding: 5px 10px;
+    color: white;
+    font-size: 18px;
+    margin-left: 50%;
+}
+.docs-info-r button:hover {
+    background: transparent;
+    border: 1px solid #5a49f8;
+    color: #5a49f8;
+    transition: 2s;
+    cursor: pointer;
+}
+.docs-box-l{
+    display: flex;
+    margin: 0 100px 50px 100px;
+    justify-content: center;
+}
+.docs-box-l img{
+    width: 400px;
+}
+.docs-info-l{
+    background: white;
+    position: relative;
+    top: 50px;
+    left: -70px;
+    text-align: left;
+    padding: 40px 40px;
+    max-width: 400px;
+}
+.docs-info-l h2{
+    text-align: left;
+}
+.docs-info-l button {
+    background: #5a49f8;
+    border: 1px solid #5a49f8;
+    padding: 5px 10px;
+    color: white;
+    font-size: 18px;
+    margin-left: 10%;
+}
+.docs-info-l button:hover {
+    background: transparent;
+    border: 1px solid #5a49f8;
+    color: #5a49f8;
+    transition: 2s;
+    cursor: pointer;
+}
+.close-r {
+    display: none;
+}
+.close-l {
+    display: none;
+}
+.invisible-box {
+    display: none;
+    margin: 50px 100px;
+    text-align: left;
+    border: 2px solid rgb(224, 223, 223);
+    border-radius: 25px;
+    color: black;
+}
+.invisible-box:hover {
+    background: rgb(238, 238, 238);
+    transition: 2s;
+    box-shadow: 0 10px 14px 0px;
+}
+.invisible-box a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    color: black;
+}
+.invisible-box a:hover {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}

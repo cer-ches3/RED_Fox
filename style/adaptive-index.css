@@ -1,0 +1,94 @@
+@media (max-width:1680px) {
+    .video{
+        height: 770px;
+    }
+}
+@media (max-width:1600px) {
+    .video{
+        height: 620px;
+    }
+}
+@media (max-width:1440px) {
+    .video{
+        height: 620px;
+    }
+    .video-box h1 {
+        position: absolute;
+        top: 35%;
+        left: 20%;
+        
+    }
+    .video-box h4 {
+        position: absolute;
+        top: 60%;
+        margin-left: 100px;
+    }
+    .video-box button {
+        position: absolute;
+        top: 83%;
+        left: 46.4%;
+    }
+    .sliderShowDate {
+        width: 30px;
+        position: absolute;
+        top: 92%;
+        left: 49%;
+    }
+}
+@media (max-width:1366px) {
+    .video{
+        height: 485px;
+    }
+    .video-box h1 {
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        
+    }
+    .video-box h4 {
+        position: absolute;
+        top: 60%;
+        margin-left: 100px;
+    }
+    .video-box button {
+        position: absolute;
+        top: 83%;
+        left: 46.4%;
+    }
+    .sliderShowDate {
+        width: 30px;
+        position: absolute;
+        top: 93%;
+        left: 49%;
+    }
+}
+@media (max-width:1280px) {
+    .nav-box {
+        margin: 0 100px;
+    }
+    .video{
+        height: 450px;
+    }
+    .video-box h1 {
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        
+    }
+    .video-box h4 {
+        position: absolute;
+        top: 40%;
+        margin-left: 100px;
+    }
+    .video-box button {
+        position: absolute;
+        top: 60%;
+        left: 46.4%;
+    }
+    .sliderShowDate {
+        width: 30px;
+        position: absolute;
+        top: 67%;
+        left: 49%;
+    }
+}

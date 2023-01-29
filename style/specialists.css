@@ -1,0 +1,70 @@
+body {
+    background: rgb(243, 242, 242);
+}
+.specialists-box {
+    background: linear-gradient(to right, #5a49f8, white);
+    margin: 0 10%;
+    width: 50%;
+}
+.specialists-box h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 150px 100px 0 0;
+    text-align: center;
+}
+
+.for-img img {
+    width: 400px;
+    position: relative;
+    top: -200px;
+    left: 45%;
+}
+.card-box {
+    margin: 0 10%;
+    position: relative;
+    top: -150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:left;
+    text-align: center;
+
+}
+.card {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    max-width: 333px;
+    height: 400px;
+    margin: 5px;
+    border-radius: 25px;
+    opacity: 0;
+}
+.card.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+  }
+#card1 {background-image: url(/image/specialist1.jpg);}
+#card2 {background-image: url(/image/specialist2.jpg);}
+#card3 {background-image: url(/image/specialist3.jpg);}
+#card4 {background-image: url(/image/specialist4.jpg);}
+#card5 {background-image: url(/image/specialist5.jpg);}
+#card6 {background-image: url(/image/specialist8.jpg);}
+#card7 {background-image: url(/image/specialist7.jpg);}
+#card8 {background-image: url(/image/specialist6.jpg);}
+#card9 {background-image: url(/image/specialist9.jpg);}
+
+
+.text {
+    color: white;
+    position: relative;
+    top: 60%;
+}
+
+.card:hover {
+    position: relative;
+    top: -5px;
+    opacity: 0.9;
+}
+
